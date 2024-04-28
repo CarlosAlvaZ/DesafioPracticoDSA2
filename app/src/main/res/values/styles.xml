@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="titleText">
+        <item name="android:textColor">@color/white</item> <!-- White color -->
+        <item name="android:textSize">24sp</item> <!-- Font size 24sp -->
+        <item name="android:textStyle">normal</item> <!-- Font weight medium -->
+        <item name="fontFamily">@font/karla_bold</item>
+    </style>
+
+    <style name="subtitleText">
+        <item name="android:textColor">@color/white</item> <!-- White color -->
+        <item name="android:textSize">18sp</item> <!-- Font size 24sp -->
+        <item name="android:textStyle">normal</item> <!-- Font weight medium -->
+        <item name="fontFamily">@font/karla</item>
+    </style>
+
+    <style name="searchResultTitle">
+        <item name="android:textColor">@color/white</item> <!-- White color -->
+        <item name="android:textSize">15sp</item> <!-- Font size 24sp -->
+        <item name="android:textStyle">normal</item> <!-- Font weight medium -->
+        <item name="fontFamily">@font/karla</item>
+    </style>
+
+    <style name="searchResultSubtitle">
+        <item name="android:textColor">@color/gray</item> <!-- White color -->
+        <item name="android:textSize">13sp</item> <!-- Font size 24sp -->
+        <item name="android:textStyle">normal</item> <!-- Font weight medium -->
+        <item name="fontFamily">@font/karla</item>
+    </style>
+
+    <style name="searchViewStyle" parent="Widget.AppCompat.SearchView" >
+       <item name="queryBackground" >@color/white</item>
+        <item name="android:queryHint">Search...</item>
+        <item name="color">@color/darkest_gray</item>
+        <item name="android:textColor">@color/darkest_gray</item>
+        <item name="hintTextColor">@color/dark_gray</item>
+    </style>
+</resources>

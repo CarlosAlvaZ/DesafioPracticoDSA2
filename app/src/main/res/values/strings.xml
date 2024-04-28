@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DesafioPracticoIIDSA2</string>
+    <string name="search">Search</string>
+    <string name="genre">Genre</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="title">Title</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="searching_for_placeholder">Searching for</string>
+    <string name="track_title_placeholder">Track Title</string>
+    <string name="track_subtitle_placeholder">Track subtitle</string>
+</resources>

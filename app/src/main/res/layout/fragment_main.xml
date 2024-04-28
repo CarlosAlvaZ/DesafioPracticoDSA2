@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/darkest_gray"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/karla_bold"
+        android:text="@string/search"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGenre"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_bg_purple"
+        android:text="@string/genre"
+        android:gravity="start|top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonArtist"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_bg_olive"
+        android:text="@string/artist"
+        android:gravity="start|top"
+        app:layout_constraintStart_toEndOf="@+id/buttonGenre"
+        app:layout_constraintTop_toTopOf="@+id/buttonGenre" />
+
+    <Button
+        android:id="@+id/buttonAlbum"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_bg_blue"
+        android:text="@string/album"
+        android:gravity="start|top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGenre" />
+
+    <Button
+        android:id="@+id/buttonTitle"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_bg_crimson"
+        android:text="@string/title"
+        android:gravity="start|top"
+        app:layout_constraintStart_toEndOf="@+id/buttonAlbum"
+        app:layout_constraintTop_toTopOf="@+id/buttonAlbum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
